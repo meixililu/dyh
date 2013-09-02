@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bg_news"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/news_content_bg"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp" >
+
+            <LinearLayout
+                android:id="@+id/more_collect_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/more_list_item_single_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="账号："
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/bigger_l" />
+
+                <EditText 
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:background="@color/none"
+                    android:gravity="left|center_vertical"
+                    android:textSize="@dimen/big_s"
+                    />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/more_about_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/more_list_item_single_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="密码："
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/bigger_l" />
+
+                <EditText 
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:background="@color/none"
+                    android:gravity="left|center_vertical"
+                    android:textSize="@dimen/big_s"
+                    />
+            </LinearLayout>
+            
+            <TextView 
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_normal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:paddingRight="30dp"
+                android:textSize="@dimen/big_s"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:text="登录"
+                />
+            
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

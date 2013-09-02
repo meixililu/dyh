@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<dimen name="huge">32sp</dimen>
+	<dimen name="h0">30sp</dimen>
+	<dimen name="h1">29sp</dimen>
+	<dimen name="h2">28sp</dimen>
+	<dimen name="h3">27sp</dimen>
+	<dimen name="h4">26sp</dimen>
+	<dimen name="h5">25sp</dimen>
+	<dimen name="h6">24sp</dimen>
+	<dimen name="bigest_l">23sp</dimen>
+	<dimen name="bigest_m">22sp</dimen>
+	<dimen name="bigest_s">21sp</dimen>
+	<dimen name="bigger_l">20sp</dimen>
+	<dimen name="bigger_m">19sp</dimen>
+	<dimen name="bigger_s">18sp</dimen>
+	<dimen name="big_l">17sp</dimen>
+	<dimen name="big_m">16sp</dimen>
+	<dimen name="big_s">15sp</dimen>
+	<dimen name="middle_l">14sp</dimen>
+	<dimen name="middle_m">13sp</dimen>
+	<dimen name="middle_s">12sp</dimen>
+	<dimen name="small_l">11sp</dimen>
+	<dimen name="small_m">10sp</dimen>
+	<dimen name="small_s">9sp</dimen>
+	
+	<dimen name="title">22sp</dimen>
+	<dimen name="tab_nav_textsize">12sp</dimen>
+	
+	
+</resources>

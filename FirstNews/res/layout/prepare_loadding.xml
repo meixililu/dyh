@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@color/none"
+    >
+
+    <ProgressBar
+        android:id="@+id/loading_progressbar"
+        style="@android:style/Widget.ProgressBar.Large.Inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+    
+    <TextView 
+        android:id="@+id/load_fail_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/load_fail_str"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/big_m"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bg_news"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/news_content_bg"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="企业如何应对经济平飞"
+            android:textColor="@color/yellow"
+            android:textSize="@dimen/bigest_m" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="时间：2012-6-26"
+                android:textColor="@color/white"
+                android:textSize="@dimen/middle_s" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="来源：《IT经理人世界》庄帅专栏"
+                android:textColor="@color/white"
+                android:textSize="@dimen/middle_s" />
+        </LinearLayout>
+        
+        <ImageView 
+            android:layout_width="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="1dp"
+            android:src="@color/white"
+            />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:text="吴军著的《浪潮之巅》中，描述雅虎的时候提到：“一百年后，如果人们只记得两个队互联网贡献最大的人，那么这两个人很可能是杨志远和戴维·菲洛。他们对世界的贡献远不止是创建了世界上最大的互联网门户网站雅虎公司，更重要的是制定了互联网这个行业全世界至今遵守的游戏规则——开放、免费和盈利”。开放、免费似乎成了互联网界的规则，导航产品也逃不掉。"
+            android:textColor="@color/white"
+            android:textSize="@dimen/middle_m" />
+        
+    </LinearLayout>
+
+</LinearLayout>
